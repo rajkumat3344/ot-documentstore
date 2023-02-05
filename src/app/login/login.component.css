@@ -1,0 +1,60 @@
+.mid-element{
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.ot-brand{
+    padding-top: 120px;
+}
+
+p{
+    color: white;
+    margin-top: 120px;
+    padding-left: 16px;
+    font-size: 24px;
+
+}
+
+.ot-brand--is-large .ot-brand__logo{
+    padding-left: 70px;
+}
+
+.ot-input.ot-input--is-secondary{
+    width: 430px;
+    height: 50px;
+    border-radius: 10px;
+
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.ot-form-control{
+    padding-left: 55px;
+    margin-top: 20px;
+}
+
+.ot-button button{
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    left: 198px;
+}
+
+input{
+    color: #dee2e6;
+}
+
+.footer p{
+    font-size: 10px;
+    margin-top: 165px;
+
+    display: flex;
+    justify-content: center;
+
+    color: #adb5bd;
+}

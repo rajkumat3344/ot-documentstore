@@ -1,0 +1,18 @@
+.mid-element{
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    padding-top: 250px;
+}
+
+.ot-progress__text{
+    color: white;
+}
+
+.ot-progress--is-bouncer .ot-progress__outer .ot-progress__meter{
+background-color: #38d9a9 !important;
+}
+
+

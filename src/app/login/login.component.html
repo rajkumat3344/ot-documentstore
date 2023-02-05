@@ -1,0 +1,36 @@
+<div class="mid-element">
+
+      <div class="ot-pr-2 ot-pl-2">
+        <div class="ot-brand ot-brand--is-large">
+            <a class="ot-brand__logo">
+                <img alt="OT2" src="http://ot-css-library.bp-paas.otxlab.net/logo.svg" title="OpenText" class="ot-brand__logo">
+              </a>
+              </div>
+              <div class="ot-flex ot-flex--is-row ot-flex--is-v-centered">
+                <p class="login-text">Sign in to continue to Document Store DS 22.4</p>
+                </div>
+                
+                 <!-- User Login -->
+      <form #login="ngForm" (ngSubmit)="userLogin(login?.['value'])">
+        <div class="ot-form-control">
+        <input #userName="ngModel" name="userName" placeholder="User Name" type="text" class="ot-input ot-input--is-secondary holder" ngModel="userName">
+        </div>
+        <div class="ot-form-control">
+          <input #password="ngModel" name="password" placeholder="Password" type="password" class="ot-input ot-input--is-secondary holder" ngModel="password">
+         </div>
+
+        <!-- Button -->
+        <div class="ot-button">
+        <button role="button" title="Sign In Button" class="ot-btn ot-btn--is-sign-in">
+           Sign in
+        </button>
+    
+
+      <div class="footer">
+        <p>
+            Copyright © 2001-2021 Open Text. All Rights Reserved. Trademarks owned by Open Text.
+        </p>
+      </div>
+    </div>
+  </form>
+          

@@ -1,0 +1,22 @@
+.ot-header{
+    position: fixed;
+    padding: 20px 800px;
+}
+
+.ot-brand{
+    position: relative;
+    right: 750px;
+}
+
+.ot-header .ot-header__actions {
+    position: relative;
+    left: 65px;
+}
+
+.ot-brand__version{
+    line-height: 0;
+}
+
+.ot-brand__version span{
+    margin-left: 5px;
+}

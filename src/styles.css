@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face { font-family: "OpenText Sans"; font-weight: normal; src:
+    url("https://artifactory.otxlab.net/artifactory/list/ot-apps-team-lib/otcss/latest/dist/fonts/OpenTextSans_W_Rg.eot"),
+    url("https://artifactory.otxlab.net/artifactory/list/ot-apps-team-lib/otcss/latest/dist/fonts/OpenTextSans_W_Rg.eot?#iefix")
+    format("embedded-opentype"),
+    url("https://artifactory.otxlab.net/artifactory/list/ot-apps-team-lib/otcss/latest/dist/fonts/OpenTextSans_W_Rg.woff2")
+    format("woff2"),
+    url("https://artifactory.otxlab.net/artifactory/list/ot-apps-team-lib/otcss/latest/dist/fonts/OpenTextSans_W_Rg.woff")
+    format("woff"); }
+
+    body{
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(39.76deg, #0e122b 13.95%, #0f142f 26.75%, #131939 36.86%, #19224a 46.06%, #222e61 54.65%, #243167 56.44%, #23346a 63.97%, #203e72 69.86%, #1b4f7f 75.2%, #146693 80.2%, #0b84ab 83.33%, #088cb2 86.05%) !important;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
