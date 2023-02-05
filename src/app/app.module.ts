@@ -11,6 +11,7 @@ import { LoginModule } from './login/login.module';
 import { HttpClientModule } from '@angular/common/http';
 import { LoaderComponent } from './loader/loader.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

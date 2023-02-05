@@ -9,14 +9,18 @@
               <div class="ot-flex ot-flex--is-row ot-flex--is-v-centered">
                 <p class="login-text">Sign in to continue to Document Store DS 22.4</p>
                 </div>
+
+                <div class="ot-flex ot-flex--is-row ot-flex--is-v-centered" *ngIf="loginForm?.['value'].invalid">
+                  <p class="error-text">Invalid credentials were entered.</p>
+                  </div>
                 
                  <!-- User Login -->
-      <form #login="ngForm" (ngSubmit)="userLogin(login?.['value'])">
+      <form (submit)="userLogin(loginForm)" [formGroup]="loginForm">
         <div class="ot-form-control">
-        <input #userName="ngModel" name="userName" placeholder="User Name" type="text" class="ot-input ot-input--is-secondary holder" ngModel="userName">
+        <input name="userName" placeholder="User Name" type="text" class="ot-input ot-input--is-secondary holder"  formControlName="userName">
         </div>
         <div class="ot-form-control">
-          <input #password="ngModel" name="password" placeholder="Password" type="password" class="ot-input ot-input--is-secondary holder" ngModel="password">
+          <input name="password" placeholder="Password" type="password" class="ot-input ot-input--is-secondary holder" formControlName="password">
          </div>
 
         <!-- Button -->

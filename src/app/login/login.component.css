@@ -58,3 +58,12 @@ input{
 
     color: #adb5bd;
 }
+
+.error-text{
+    margin-top: 0;
+
+    position: relative;
+    left: 80px;
+
+
+}

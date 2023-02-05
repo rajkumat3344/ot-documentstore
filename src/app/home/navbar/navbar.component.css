@@ -1,6 +1,7 @@
 .ot-header{
     position: fixed;
     padding: 20px 800px;
+    
 }
 
 .ot-brand{
@@ -19,4 +20,14 @@
 
 .ot-brand__version span{
     margin-left: 5px;
+}
+
+.ot-card__avatar-placeholder{
+    width: 43px;
+    height: 43px;
+}
+
+.ot-card__avatar-placeholder .ot-card__profile-initials{
+    font-size: 1.5rem;
+    color: white;
 }
