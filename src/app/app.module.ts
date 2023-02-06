@@ -11,6 +11,12 @@ import { LoginModule } from './login/login.module';
 import { HttpClientModule } from '@angular/common/http';
 import { LoaderComponent } from './loader/loader.component';
 
+import { ConfirmPopupModule } from "primeng/confirmpopup";
+import { ToastModule } from "primeng/toast";
+import { ButtonModule } from "primeng/button";
+import { ConfirmationService, MessageService } from "primeng/api";
+import { TaskFormComponent } from './home/task-form/task-form.component';
+
 
 @NgModule({
   declarations: [
@@ -20,14 +26,19 @@ import { LoaderComponent } from './loader/loader.component';
     ListItemComponent,
     ContentComponent,
     LoaderComponent,
+    TaskFormComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     LoginModule,
-    HttpClientModule
+    HttpClientModule,
+    ConfirmPopupModule,
+    ToastModule,
+    ButtonModule
+   
   ],
-  providers: [HttpClientModule],
+  providers: [HttpClientModule,ConfirmationService, MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

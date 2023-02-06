@@ -3,14 +3,20 @@
     align-items:center;
     justify-content: center;
 
-    padding-top: 200px;
+    padding-top: 320px;
 }
 
 h1{
     color: white;
 }
 
-
+.p-button{
+    position: relative;
+    left: 40px;
+    bottom: 300px;
+    background: #1a5181;
+    border: 1px solid #1f4174;
+}
 
 :host ::ng-deep .p-button {
     margin: 0 .5rem 0 0;
@@ -29,10 +35,4 @@ p {
 
 :host ::ng-deep .p-dialog .p-button {
     min-width: 6rem;
-}
-
-.p-button{
-    margin-top: 80px;
-    background: #1a5181;
-    border: 1px solid #1f4174;
 }
